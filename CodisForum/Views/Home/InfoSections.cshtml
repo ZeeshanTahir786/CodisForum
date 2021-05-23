@@ -1,0 +1,149 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Info Section";
+}
+
+<div class="row mt-5">
+    <div class="col-md-12 mx-auto">
+        <div id="smartwizard">
+            <ul class="nav">
+                <li>
+                    <a class="nav-link" href="#step-1">
+                        Step 1
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#step-2">
+                        Step 2
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#step-3">
+                        Step 3
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="step-1" class="tab-pane" role="tabpanel">
+                    <h2 class="text-center pt-3">Basic Information</h2>
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>First Name</label>
+                                <input type="text" name="fname" value="" placeholder="Enter First Name" class="form-control" />
+                            </div>
+                            <div class="col-md-6">
+                                <label>Last Name</label>
+                                <input type="text" name="lname" value="" placeholder="Enter Last Name" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-md-6">
+                                <label>Age</label>
+                                <input type="date" name="age" value="" placeholder="dd/mm/yyyy" class="form-control" />
+                            </div>
+                            <div class="col-md-6">
+                                <label>Gender</label>
+                                <select class="form-control" name="gender">
+                                    <option selected>Select Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-md-6">
+                                <label>Cnic</label>
+                                <input type="number" name="cnic" value="" placeholder="xxxxxxxxxxxxx" class="form-control" />
+                            </div>
+                            <div class="col-md-6">
+                                <label>Phone Number</label>
+                                <input type="number" name="ph" value="" placeholder="Enter Phone Number" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-md-6">
+                                <label>Country</label>
+                                <input type="text" name="country" value="" placeholder="Enter Country" class="form-control" />
+                            </div>
+                            <div class="col-md-6">
+                                <label>District</label>
+                                <input type="text" name="district" value="" placeholder="Enter District" class="form-control" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="step-2" class="tab-pane" role="tabpanel">
+                    <h2 class="text-center pt-3">Acedmic Information</h2>
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>School/College/University</label>
+                                <input type="text" name="fname" value="" placeholder="Enter School/College/University" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-md-12">
+                                <label>Degree</label>
+                                <input type="text" name="degree" value="" placeholder="Enter Degree" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-md-12">
+                                <label>Specialization</label>
+                                <input type="text" name="specialization" value="" placeholder="Enter Specialization" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-md-6">
+                                <label>Start Year</label>
+                                <input type="date" name="styear" value="" placeholder="Enter Start Year" class="form-control" />
+                            </div>
+                            <div class="col-md-6">
+                                <label>End Year</label>
+                                <input type="date" name="edyear" value="" placeholder="Enter End Year" class="form-control" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="step-3" class="tab-pane" role="tabpanel">
+                    <h2 class="text-center pt-3">Working Domain</h2>
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Job Title</label>
+                                <input type="text" name="job_title" value="" placeholder="Enter School/College/University" class="form-control" />
+                            </div>
+                            <div class="col-md-6">
+                                <label>Experience year</label>
+                                <input type="text" name="exp_year" value="" placeholder="Enter School/College/University" class="form-control" />
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-md-12">
+                                <label>Other Skills</label>
+                                <input type="text" name="degree" value="" placeholder="Enter Degree" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn btn-primary mt-2" type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -37,3 +37,4 @@ C:\Users\Usman Tahir\source\repos\CodisForum\CodisForum\obj\Debug\netcoreapp3.1\
 C:\Users\Usman Tahir\source\repos\CodisForum\CodisForum\obj\Debug\netcoreapp3.1\CodisForum.csproj.CopyComplete
 C:\Users\Usman Tahir\source\repos\CodisForum\CodisForum\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profile.cshtml.g.cs
 C:\Users\Usman Tahir\source\repos\CodisForum\CodisForum\obj\Debug\netcoreapp3.1\Razor\Views\Home\JoinUs.cshtml.g.cs
+C:\Users\Usman Tahir\source\repos\CodisForum\CodisForum\obj\Debug\netcoreapp3.1\Razor\Views\Home\InfoSections.cshtml.g.cs

@@ -1,15 +1,61 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Profile Page";
 }
 
 <div class="text-center mt-5">
-    <h1 class="display-4">Welcome to your Professional Community</h1>
-    <h2 class="display-4">About Us</h2>
-    <p class="text-center pt-3 lead">
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-    </p>
-    <div class="col-12 mt-3 mb-3">
-        <button class="btn btn-primary" type="button">Join Us</button>
-        <button class="btn btn-secondary" type="button">Sign In</button>
-    </div>
+    <h1 class="display-4">Profile</h1>
+    <form action="#">
+        <div class="row mt-3">
+            <div class="col-6">
+                <label for="name" class="float-left">Name: </label>
+                <input type="text" name="name" class="form-control" placeholder="Enter Name" value="" />
+            </div>
+            <div class="col-6">
+                <label for="age" class="float-left">Age: </label>
+                <input type="number" name="age" class="form-control" placeholder="23" value="" />
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-6">
+                <label for="job_title" class="float-left">Job Title: </label>
+                <input type="text" name="job_title" class="form-control" placeholder="Web developer e.g" value="" />
+            </div>
+            <div class="col-6">
+                <label for="working_experience" class="float-left">Working Experience: </label>
+                <input type="text" name="working_experience" class="form-control" placeholder="Work Experience" value="" />
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-6">
+                <label for="location" class="float-left">Location: </label>
+                <input type="text" name="location" class="form-control" placeholder="Lahore" value="" />
+            </div>
+            <div class="col-6">
+                <label for="contact" class="float-left">Contact: </label>
+                <input type="number" name="contact" class="form-control" placeholder="03xx-xxxxxxx" value="" />
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-6">
+                <label for="skills" class="float-left">Skills: </label>
+                <input type="text" name="skills" class="form-control" placeholder="xyz,abc" value="" />
+            </div>
+            <div class="col-6">
+                <label for="email" class="float-left">Email: </label>
+                <input type="email" name="email" class="form-control" placeholder="xyz@@mail.com" value="" />
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <button type="submit" class="form-control btn btn-primary">OK</button>
+            </div>
+            <div class="col-4"></div>
+        </div>
+
+    </form>
 </div>
